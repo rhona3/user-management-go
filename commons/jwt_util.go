@@ -5,7 +5,7 @@ import (
 	"usermanagement/models"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/spf13/viper"
+	"github.com/spf14/viper"
 )
 
 func GenerateToken(user *models.User) (string, error) {
